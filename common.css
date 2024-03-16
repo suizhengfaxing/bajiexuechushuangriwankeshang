@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import "~@/fonts/SIMKAI.css";
+@import "./fonts/SIMKAI.css";
 /* H5公共样式，用于所有H5开发页面*/
 html {
   font-family: "Microsoft Yahei", "Hiragino Sans GB", "Helvetica Neue",
