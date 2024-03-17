@@ -32,7 +32,7 @@ color: rgba(100, 65, 37, 0.97); /* 使用半透明颜色值 */
 }
 
 .kuohao {
-  width: 16px; font-family: "楷体", "楷体_GB2312", "SIMKAI";
+  
 }
 
 .kuoHao_WuPinYin {
@@ -42,6 +42,7 @@ color: rgba(100, 65, 37, 0.97); /* 使用半透明颜色值 */
 }
 
 .kuoHao_YouPinYin{
+  width: 1em; font-family: "楷体", "楷体_GB2312", "SIMKAI";
   word-break:keep-all;  /* 不换行 */
   white-space:nowrap; /* 不换行 */
 }
