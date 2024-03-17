@@ -32,11 +32,18 @@ color: rgba(100, 65, 37, 0.97); /* 使用半透明颜色值 */
 }
 
 .kuohao {
-  width: 1em; font-family: "楷体", "楷体_GB2312", "SIMKAI";
+  width: 16px; font-family: "楷体", "楷体_GB2312", "SIMKAI";
 }
 
 .kuoHao_WuPinYin {
   font-family: "楷体", "楷体_GB2312", "SIMKAI";
+  word-break:keep-all;  /* 不换行 */
+  white-space:nowrap; /* 不换行 */
+}
+
+.kuoHao_YouPinYin{
+  word-break:keep-all;  /* 不换行 */
+  white-space:nowrap; /* 不换行 */
 }
 
 .yiJiBiaoTi_p{
@@ -107,12 +114,14 @@ color: rgba(100, 65, 37, 0.97); /* 使用半透明颜色值 */
   margin-top: 16px;line-height: 2em; margin-bottom: 0px; padding: 0px; outline: 0px; max-width: 100%; clear: both; min-height: 1em; color: rgb(100, 65, 37); font-family: system-ui, -apple-system, BlinkMacSystemFont, Helvetica Neue, PingFang SC, Hiragino Sans GB, Microsoft YaHei UI, Microsoft YaHei, Arial, sans-serif; font-size: 16px; overflow-wrap: break-word !important;
 }
 
-
-
-
+.yiJiBiaoTi_buHuanHang{
+  word-break:keep-all;  /* 不换行 */
+  white-space:nowrap; /* 不换行 */
+  margin: 0px; padding: 0px; outline: 0px; max-width: 100%; color: rgb(114, 41, 41); font-size: 24px; visibility: visible; overflow-wrap: break-word !important;
+}
 
 .container{
-    padding:20px 10px 70px 10px!important;
+    padding:20px 20px 70px 20px!important;
 }
 /* 将具有默认margin和padding的标记置零，所有标记的margin、padding都在使用时具体定义 */
 * {
